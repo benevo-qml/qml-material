@@ -1,7 +1,7 @@
 module Material
 
 # This will be automatically uncommented when installing globally
-# plugin material
+plugin material
 
 # Components
 ActionButton 0.1 ActionButton.qml
