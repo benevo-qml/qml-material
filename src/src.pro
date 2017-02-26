@@ -51,7 +51,8 @@ listitems.files += listitems/*
 listitems.path = $$[QT_INSTALL_QML]/Material/ListItems
 
 styles.files += styles/*
-styles.path = $$[QT_INSTALL_QML]/QtQuick/Controls/Styles/Material
+styles.path = $$[QT_INSTALL_QML]/Material/Styles
+#styles.path = $$[QT_INSTALL_QML]/QtQuick/Controls/Styles/Material
 
 #qmldir.target = $$OUT_PWD/out/qmldir
 #qmldir.commands = mkdir -p $$OUT_PWD/out;
