@@ -29,6 +29,21 @@ material.files +=  \
                     window/*
 material.path = $$[QT_INSTALL_QML]/Material
 
+components.files += components/*
+components.path = $$[QT_INSTALL_QML]/Material/components
+
+controls.files += controls/*
+controls.path = $$[QT_INSTALL_QML]/Material/controls
+
+core.files += core/*
+core.path = $$[QT_INSTALL_QML]/Material/core
+
+popups.files += popups/*
+popups.path = $$[QT_INSTALL_QML]/Material/popups
+
+window.files += window/*
+window.path = $$[QT_INSTALL_QML]/Material/window
+
 extras.files += extras/*
 extras.path = $$[QT_INSTALL_QML]/Material/Extras
 
@@ -46,6 +61,6 @@ qmldir.path = $$[QT_INSTALL_QML]/Material
 qmldir.files = $$PWD/qmldir
 qmldir.CONFIG += no_check_exist
 
-INSTALLS += target material extras listitems styles qmldir
+INSTALLS += target components controls core popups window extras listitems styles qmldir
 
 OTHER_FILES += $$material.files $$extras.files $$listitems.files $$styles.files
