@@ -12,6 +12,7 @@ ProgressCircle 0.1 ProgressCircle.qml
 Scrollbar 0.1 Scrollbar.qml
 Snackbar 0.1 Snackbar.qml
 ThinDivider 0.1 ThinDivider.qml
+MagicDivider 0.1 MagicDivider.qml
 TimePicker 0.2 TimePicker.qml
 Tooltip 0.1 Tooltip.qml
 Wave 0.1 Wave.qml
