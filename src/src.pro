@@ -17,7 +17,7 @@ SOURCES += plugin.cpp \
            core/device.cpp \
            core/units.cpp
 
-RESOURCES += ../icons/core_icons.qrc
+RESOURCES += $$[QT_INSTALL_QML]/icons/icons_all.qrc
 
 target.path = $$[QT_INSTALL_QML]/Material
 

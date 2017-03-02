@@ -71,3 +71,5 @@ TabBar 0.1 window/TabBar.qml
 TabbedPage 0.2 window/TabbedPage.qml
 Toolbar 0.1 window/Toolbar.qml
 Window 0.1 window/Window.qml
+
+typeinfo plugin.qmltypes
