@@ -17,7 +17,7 @@ SOURCES += plugin.cpp \
            core/device.cpp \
            core/units.cpp
 
-RESOURCES += $$[QT_INSTALL_QML]/icons/icons_all.qrc
+RESOURCES += #$$[QT_INSTALL_QML]/icons/icons_all.qrc
 
 target.path = $$[QT_INSTALL_QML]/Material
 
@@ -54,6 +54,9 @@ styles.files += styles/*
 styles.path = $$[QT_INSTALL_QML]/Material/Styles
 #styles.path = $$[QT_INSTALL_QML]/QtQuick/Controls/Styles/Material
 
+icons.files += ../icons/*
+icons.path = $$[QT_INSTALL_QML]/icons
+
 #qmldir.target = $$OUT_PWD/out/qmldir
 #qmldir.commands = mkdir -p $$OUT_PWD/out;
 #qmldir.commands += sed \"s/$$LITERAL_HASH plugin material/plugin material/\" $$PWD/qmldir > $$qmldir.target
@@ -62,6 +65,6 @@ qmldir.path = $$[QT_INSTALL_QML]/Material
 qmldir.files = $$PWD/qmldir
 qmldir.CONFIG += no_check_exist
 
-INSTALLS += target components controls core popups window extras listitems styles qmldir
+INSTALLS += target components controls core popups window extras listitems styles icons qmldir
 
 OTHER_FILES += $$material.files $$extras.files $$listitems.files $$styles.files
