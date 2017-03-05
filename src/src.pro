@@ -65,6 +65,6 @@ qmldir.path = $$[QT_INSTALL_QML]/Material
 qmldir.files = $$PWD/qmldir
 qmldir.CONFIG += no_check_exist
 
-INSTALLS += target components controls core popups window extras listitems styles icons qmldir
+INSTALLS += target qmldir components controls core popups window extras listitems styles# icons
 
 OTHER_FILES += $$material.files $$extras.files $$listitems.files $$styles.files
