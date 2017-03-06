@@ -212,6 +212,7 @@
         <file alias="inflate.svg">action_inflate.svg</file>
         <file alias="inflate_default.svg">action_inflate_default.svg</file>
         <file alias="deflate.svg">action_deflate.svg</file>
+        <file alias="setting.svg">action_setting.svg</file>
     </qresource>
     <qresource prefix="/icons/alert">
         <file alias="add_alert.svg">alert_add_alert.svg</file>
